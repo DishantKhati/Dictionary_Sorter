@@ -1,0 +1,15 @@
+print("Dishant Khati")
+p=input("Enter the string: ")
+d1={}
+i=0
+n=p.split(" ")
+while(i!=len(n)):
+    d1[n[i]]={len(n[i])}
+    print(d1)
+    i+=1
+a=sorted(d1.values()) 
+b=sorted(d1.keys()) 
+i=0   
+while(i<len(n)):
+    print(b[i]," : ",a[i])
+    i+=1
